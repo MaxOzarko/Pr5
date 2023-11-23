@@ -1,0 +1,47 @@
+body {
+    background: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+#taskInput {
+    width: 300px;
+    height: 35px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.taskItem {
+    display: flex;
+    width: 300px;
+    height: 36px;
+}
+
+.completedTask {
+    text-decoration: line-through;
+    color: grey;
+}
+
+.deleteBtn {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.list-info {
+    font-size: 20px;
+}
+
+.time {
+    margin-left: 30px;
+}
+
+.sort {
+    border: 2px solid darkblue;
+    font-size: 20px;
+    color: darkblue;
+}
